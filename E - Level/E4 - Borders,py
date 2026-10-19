@@ -1,0 +1,10 @@
+numbers = [18, 15, 5, 3, 7]
+border = int(input("Gib eine Grenze ein: "))
+newList = []
+
+for i in range(len(numbers)):
+    num = numbers[i]
+    if num > border:
+        newList.append(num)
+        
+print(newList)
